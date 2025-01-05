@@ -9,14 +9,21 @@ This repository was developed by Rosario Delgado (Universitat Autònoma de Barce
 
 For experimental evaluation of the Ord-MAP criterion for ordinal classification (versus the traditional MAP criterion), in Section 5 of the paper diverse datasets and classifiers are considered. Even when classifiers are tailored for ordinal data, Ord-MAP achieves statistically significant improvements in prediction, with respect to the Mean Absolute Error (MAE) metric. 
 
+We consider four real-world datasets:
+
+# Facial age dataset (https://www.kaggle.com/datasets/frabbisw/facial-age)
+World Values Surveys (WVS) dataset is sourced from the carData R package (Dataset to accompany J. Fox and S. Weisberg, An R Companion to Applied Regression, Third Edition, Sage (2019). https://doi.org/10.32614/CRAN.package.carData). Target variable Poverty with three categories: Too Little, About Right, Too Much. 
+
+Script: ordinal_logistic_regression_poverty.R
+
+Classifier: ordinal logistic regression using polr function from the MASS R package. 
 
 
-We consider three real-world datasets:
 
-Facial age dataset (https://www.kaggle.com/datasets/frabbisw/facial-age)
-Abalone dataset (https://archive.ics.uci.edu/dataset/1/abalone)
-Parkinson dataset (https://archive.ics.uci.edu/dataset/189/parkinson+telemonitoring)
-It uses the content in https://github.com/giuliabinotto/ IntervalScaleClassification, which correspond to Section 4 fot the same paper, where scripts facilitate the computation of two ordinal metrics, Mean Absolute Error (MAE) and Total Cost (TC), alongside their interval scale counterparts introduced in the paper, with a specific section designed to address scenarios in which the rightmost interval is unbounded.
+
+
+
+
 
 Description
 From_png_to_dataframe.R
