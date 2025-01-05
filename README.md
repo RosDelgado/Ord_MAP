@@ -11,28 +11,28 @@ For experimental evaluation of the Ord-MAP criterion for ordinal classification 
 
 We consider four real-world datasets:
 
-# World Values Surveys (WVS) dataset. 
+# World Values Surveys (WVS) dataset 
 This dataset is sourced from the "carData" R package (Dataset to accompany J. Fox and S. Weisberg, An R Companion to Applied Regression, Third Edition, Sage (2019). https://doi.org/10.32614/CRAN.package.carData). Target variable Poverty with three categories: Too Little, About Right, Too Much. 
 
 Script: ordinal_logistic_regression_poverty.R
 
 Classifier: ordinal logistic regression using "polr" function from the "MASS" R package. 
 
-# Wine dataset. 
+# Wine dataset 
 This dataset is available in the "ordinal" R package (https://doi.org/10.32614/CRAN.package.ordinal). The target variable is Rating, ordinal with five values, from 1 to 5. 
 
 Script: ordinal_package_wine.R
 
 Classifier: cumulative link (mixed) models also known as ordered regression models, proportional odds models, proportional hazards models for grouped survival times and ordered logit/probit/... models, using the "clm" function from "ordinal" R package. 
 
-# Hearth dataset.
+# Hearth dataset
 This dataset is included in the "ordinalForest" R package (https://doi.org/10.32614/CRAN.package.ordinalForest). The target variable Class has five ordered categories, from 1 to 5. 
 
 Script: ordinalForest_Class.R
 
 Classifier: ordinal random forest using the "ordfor" function from the "ordinalForest" R package. 
 
-# Parkinson dataset. 
+# Parkinson dataset 
 This dataset is available from the UC Irvine Machine Learning Repository(https://archive.ics.uci.edu/dataset/189/parkinsons+telemonitoring). Two target variables are considered, which are continuous and have been discretized: 
 • v5:motor UPDRS (clinician’s motor Unified Parkinson’s Disease Rating Scale). This scale is a widely used score to track disease progression. Categories 1 to 5: < 13, [13, 18), [18, 24), [24, 29), ≥ 29.
 • v6:total UPDRS (clinician’s total Unified Parkinson’s Disease Rating Scale). 
