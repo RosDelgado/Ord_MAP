@@ -11,8 +11,8 @@ For experimental evaluation of the Ord-MAP criterion for ordinal classification 
 
 We consider four real-world datasets:
 
-# Facial age dataset (https://www.kaggle.com/datasets/frabbisw/facial-age)
-World Values Surveys (WVS) dataset is sourced from the carData R package (Dataset to accompany J. Fox and S. Weisberg, An R Companion to Applied Regression, Third Edition, Sage (2019). https://doi.org/10.32614/CRAN.package.carData). Target variable Poverty with three categories: Too Little, About Right, Too Much. 
+# World Values Surveys (WVS) dataset. 
+This dataset is sourced from the carData R package (Dataset to accompany J. Fox and S. Weisberg, An R Companion to Applied Regression, Third Edition, Sage (2019). https://doi.org/10.32614/CRAN.package.carData). Target variable Poverty with three categories: Too Little, About Right, Too Much. 
 
 Script: ordinal_logistic_regression_poverty.R
 
