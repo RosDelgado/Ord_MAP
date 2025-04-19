@@ -6,6 +6,8 @@ R Scripts for the experimentation phase of the manuscript:
 by Rosario Delgado (submitted to publication)
 This repository was developed by Rosario Delgado (Universitat Autònoma de Barcelona, 2025).
 
+____________________________________________________________________________________________
+
 ### EXPERIMENTAL EVALUATION 
 For experimental evaluation of the Ord-MAP criterion for ordinal classification (versus the traditional MAP criterion), in Section 5 of the paper diverse datasets and classifiers are considered. Even when classifiers are tailored for ordinal data, Ord-MAP achieves statistically significant improvements in prediction, with respect to the Mean Absolute Error (MAE) metric. 
 
@@ -53,6 +55,7 @@ _____________________________
 ## Specific R scripts
 The four scripts use the script mat_square.R (introduced here), which converts any matrix in a square matrix with desired row/column labels, by adding zeros if needed.
 
+_____________________________________________________________________________________________________
 
 ### SIMULATION 
 To complement both the theoretical results and experiments, in Section 6 we present a controlled simulation study aimed at analyzing the behavior of the MAP and Ord-MAP decision rules under varying levels of uncertainty.
