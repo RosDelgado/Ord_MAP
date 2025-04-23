@@ -3,7 +3,7 @@
 R Scripts for the experimentation phase of the manuscript:
 
 # Ord-MAP criterion: extending MAP for Ordinal Classification
-## by Rosario Delgado (submitted to publication)
+## by R. Delgado (submitted to publication)
 This repository was developed by Rosario Delgado (Universitat Autònoma de Barcelona, 2025).
 
 ____________________________________________________________________________________________
