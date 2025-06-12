@@ -2,7 +2,7 @@
 
 R Scripts for the experimentation phase of the manuscript:
 
-# Ord-MAP criterion: Extending MAP for Ordinal Classification,
+# Ord-MAP criterion: Extending MAP for Ordinal Classification
 
 ## By Rosario Delgado
 
