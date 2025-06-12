@@ -6,11 +6,11 @@ R Scripts for the experimentation phase of the manuscript:
 
 ## By Rosario Delgado
 
-Knowledge-Based Systems,
-Volume 324, 2025, 113837,
-ISSN 0950-7051,
+## Knowledge-Based Systems,
+ Volume 324, 2025, 113837,
+ ISSN 0950-7051,
 
-https://doi.org/10.1016/j.knosys.2025.113837
+## https://doi.org/10.1016/j.knosys.2025.113837
 
 ____________________________________________________________________________________________
 
