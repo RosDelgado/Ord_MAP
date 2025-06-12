@@ -4,7 +4,8 @@ R Scripts for the experimentation phase of the manuscript:
 
 # Ord-MAP criterion: Extending MAP for Ordinal Classification,
 
-# By Rosario Delgado, Department of Mathematics, University Autonomous of Barcelona.
+# By Rosario Delgado
+
 Knowledge-Based Systems,
 Volume 324, 2025, 113837,
 ISSN 0950-7051,
